@@ -1,0 +1,37 @@
+.summary {
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 20%;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    width: 40%;
+    padding: 20px;
+  }
+}
+
+.popup_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.continueBtn {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  padding: 8px;
+}

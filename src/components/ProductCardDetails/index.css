@@ -1,0 +1,83 @@
+.product-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.product_cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_card {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.productCard_img {
+  width: 50%;
+  border-radius: 10px;
+  height: 40%;
+  margin-right: 20px;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+}
+
+.productCard_descrip {
+  width: 50%;
+  font-family: 'Roboto';
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+}
+
+.product_card_rating {
+  display: flex;
+  align-items: center;
+}
+.rating_container {
+  background-color: #0b69ff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 3px;
+  margin-right: 5px;
+}
+.star_icon {
+  width: 20px;
+}
+
+.quantity_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.quantity_btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.quantity_icon {
+  font-size: 20px;
+}
+
+.spanEle {
+  color: #64748b;
+}
+
+.addToCard {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.productList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Products_Heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.product_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-self: center;
+  }
+}
+
+.exclusive_Img {
+  width: 80%;
+}
+
+.loading_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  font-size: 30px;
+}

@@ -1,0 +1,23 @@
+.Products_Heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.productHeader_container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  align-items: center;
+}
+
+.sortOptions {
+  height: 30px;
+  margin-left: 10px;
+  border: 0px;
+}
+
+.sorting {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,19 @@
+.product_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-self: center;
+  }
+}
+
+
+.productList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

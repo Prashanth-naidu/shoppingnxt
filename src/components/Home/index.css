@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+.home_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.description {
+  width: 30%;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.clothes_img_mobile {
+  width: 90%;
+  order: 1;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.clothes_img_screen {
+  width: 40%;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.description_heading {
+  font-family: 'Roboto';
+}
+
+.shop_btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}

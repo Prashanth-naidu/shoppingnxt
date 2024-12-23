@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.nav_bar {
+  height: 10%;
+  padding-left: 20px;
+  padding-right: 9px;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.cart-count-badge {
+  background-color: #bfdbfe;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  margin-left: 8px;
+}
+
+.icon_img {
+  width: 20px;
+}
+
+.logo_img {
+  width: 130px;
+  height: 50px;
+}
+
+.unorderList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav_links {
+  color: black;
+  text-decoration: none;
+  margin-right: 18px;
+  @media screen and (max-width: 768px){
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logout_btn {
+  background-color: blue;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.mobile_view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile_img {
+  width: 100px;
+}
+
+.main_heading {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.icons {
+  background-color: #e6f6ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+}
